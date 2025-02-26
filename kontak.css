@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(205, 170, 118);
+    font-size: 15px;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.teks{
+    margin-right: 2500px;
+}
+
+.teks h3{
+    margin-left: 50px;
+}
+
+.teks p{
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+img{
+    margin-left: 650px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.kontak-form{
+    background-color: bisque;
+    padding: 20px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(128, 105, 69);
+}
+
+.kontak-form h1{
+    font-size: 35px;
+    color: rgb(128, 105, 69);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea {
+    color: rgb(157, 129, 88);
+}
+
+.kontak-form button{
+    border-radius: -10;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 23px;
+    background-color: rgb(169, 137, 90);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px; 
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.kontak-form input{
+    padding-left: 470px;
+    padding-right: 470px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+section h4{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+}
+
+.jam-buka{
+    margin-left: 542px;
+}
+
+.spasi-kiri{
+    margin-right: 20px;
+}
+
+.spasi-kanan{
+    margin-left: 40px;
+}
+
+.bersebelahan{
+    display: flex;
+}
+
+.footer{
+    background-color:  rgb(169, 137, 90);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .kontak-form h1{
+        font-size: 25px;
+        color: rgb(128, 105, 69);
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .kontak-form button{
+        border-radius: -10;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(169, 137, 90);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px; 
+        margin-left: 600px;
+        margin-top: 10px;
+    }
+
+    .kontak-form input{
+        padding-left: 43px;
+        padding-right: 25px;
+    }
+
+    .jam-buka{
+        margin-left: 65px;
+    }
+
+    .kontak-form button{
+        border-radius: -10;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 23px;
+        background-color: rgb(169, 137, 90);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 30px; 
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+
+    .kontak-form textarea{
+        columns: 10;
+        width: 345px; /* Lebar textarea dalam piksel */
+        height: 100px; /* Tinggi textarea dalam piksel */
+    }
+
+    .footer{
+        background-color:  rgb(169, 137, 90);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: -30px;
+    }
+}
